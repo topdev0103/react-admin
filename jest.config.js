@@ -16,6 +16,7 @@ const moduleNameMapper = packages.reduce((mapper, dirName) => {
     return mapper;
 }, {});
 
+
 module.exports = {
     globalSetup: './test-global-setup.js',
     setupFilesAfterEnv: ['./test-setup.js'],
